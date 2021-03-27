@@ -99,6 +99,7 @@ header a {
     display: flex;
     height: 35vh;
     width: 100%;
+
 }
 
 #logo img {
@@ -118,9 +119,102 @@ header a {
 }
 
 .searchBar {
-    margin-top: 2em;
+    max-width: 50vw;
+    margin: 2em auto;
     height: 3em;
     border-radius: 1.5em;
-    border: 1.5px solid #999;
-
+    border: 1px solid #999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.searchBar:hover {
+    transform: scale(1.005);
+    box-shadow: 0 1px 6px rgba(209, 214, 230, 0.28);
+}
+
+#searchIcon {
+    vertical-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    margin-left: 4px
+}
+
+#searchIcon img {
+    align-self: center;
+    background: #blue;
+    padding: .5em;
+    height: 24px;
+    width: 24px;
+}
+
+#textInput {
+    height: 100%;
+    width: 50vw;
+    margin: 8px;
+}
+
+#searchField {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #EEE;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchField:active {
+    border: none;
+    outline: none;
+}
+
+#voiceIcon {
+    margin: .2em;
+    height: 40px;
+    width: 40px;
+}
+
+#voiceIcon img {
+    height: 24px;
+    margin: auto;
+    padding: .5em;
+    
+}
+
+.searchButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    color: #EEE;
+    text-align: center;
+    justify-content: center;
+    height: 2.2rem;
+    margin: 0 1.2rem;
+    padding: 0em .8em;
+    background: #444;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #333;
+}
+
+.button:hover {
+    border: 1px solid #666;
+}
+
+.search {
+    padding: 0 1.3rem;
+    }
+
