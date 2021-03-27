@@ -14,7 +14,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     font-size: .8em;
-    margin: 1em;
 }
 
 header div {
@@ -73,6 +72,7 @@ header a {
     height: 4px;
     width: 4px;
     padding: 0;
+    margin: 1.5px;
     justify-self: center;
 }
 
@@ -108,7 +108,7 @@ header a {
 }
 
 #search {
-    min-height: 10em;
+    height: 10em;
     max-height: fit-content;
 
 }
@@ -202,7 +202,7 @@ header a {
     height: 2.2rem;
     margin: .5em 1.2rem;
     padding: 0em .8em;
-    background: #444;
+    background: rgb(56, 56, 56);
     border-radius: 5px;
     border: none;
     font-size: 14px;
