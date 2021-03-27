@@ -105,3 +105,22 @@ header a {
     align-self: flex-end;
     margin: 0 auto;
 }
+
+#search {
+    height: 10em;
+
+}
+
+#inputForm {
+    margin: auto;
+    height: 100%;
+    width: 60%
+}
+
+.searchBar {
+    margin-top: 2em;
+    height: 3em;
+    border-radius: 1.5em;
+    border: 1.5px solid #999;
+
+}
