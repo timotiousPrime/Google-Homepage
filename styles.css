@@ -97,7 +97,7 @@ header a {
 
 #logo {
     display: flex;
-    height: 35vh;
+    height: 27vh;
     width: 100%;
 
 }
@@ -171,9 +171,8 @@ header a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#searchField:active {
-    border: none;
-    outline: none;
+#searchField:focus {
+    outline-style: none;
 }
 
 #voiceIcon {
@@ -200,7 +199,7 @@ header a {
     text-align: center;
     justify-content: center;
     height: 2.2rem;
-    margin: 0 1.2rem;
+    margin: .5em 1.2rem;
     padding: 0em .8em;
     background: #444;
     border-radius: 5px;
@@ -215,6 +214,23 @@ header a {
 }
 
 .search {
-    padding: 0 1.3rem;
+    padding: 0 1rem;
     }
 
+#lang {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: .8em;
+    color: #eee;
+}
+
+#lang a {
+    color: #E5F254;
+    text-decoration: none;
+}
+
+#lang a:hover {
+    color: #E5F254;
+    text-decoration: underline;
+}
