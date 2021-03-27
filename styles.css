@@ -30,11 +30,23 @@ header a {
     padding: .8em;
 }
 
+#gmail:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
 #images {
+    margin: 0 1em 0 0;
     padding: .8em;
 }
 
+#images:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
 #appsLogo {
+    border-radius: 50%;
     padding: .8em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,6 +54,11 @@ header a {
     height: 20px;
     justify-content: center;
     align-items: center;
+}
+
+#appsLogo:hover {
+    background: #444;
+    opacity: .9;
 }
 
 #apps a {
@@ -55,12 +72,20 @@ header a {
     background: #999;
     height: 4px;
     width: 4px;
-
     padding: 0;
     justify-self: center;
 }
 
 #userImg {
+    text-align: center;
+    padding: .4em;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+#userImg:hover {
+    background: #444;
+    opacity: .9;
 }
 
 #userImg img {
