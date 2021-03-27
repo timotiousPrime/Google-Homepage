@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,7 +23,7 @@ header div {
 
 header a {
     text-decoration: none;
-    color: #333;
+    color: #EEE;
 }
 
 #gmail {
@@ -51,7 +52,7 @@ header a {
 
 .appsLogoDot {
     border-radius: 50%;
-    background: #666;
+    background: #999;
     height: 4px;
     width: 4px;
 
@@ -69,3 +70,13 @@ header a {
     width: 32px;
 }
 
+#logo {
+    display: flex;
+    height: 35vh;
+    width: 100%;
+}
+
+#logo img {
+    align-self: flex-end;
+    margin: 0 auto;
+}
